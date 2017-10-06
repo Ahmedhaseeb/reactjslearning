@@ -1,0 +1,37 @@
+{
+  "name": "fulljs",
+  "version": "1.0.0",
+  "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmedhaseeb/reactjslearning.git"
+  },
+  "author": "Ahmed Haseeb",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ahmedhaseeb/reactjslearning/issues"
+  },
+  "homepage": "https://github.com/Ahmedhaseeb/reactjslearning#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongodb": "^2.2.31",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "webpack": "^3.6.0"
+  }
+}
